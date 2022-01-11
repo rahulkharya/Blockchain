@@ -1,0 +1,9 @@
+In this smart contract, I have implemented Banking related functionalities.
+
+Few of the scenarios covered are:
+
+- Joining as a new client
+- Appointing a manager
+- Sending interest
+- Fetching contract balance
+- Deposit and withdraw

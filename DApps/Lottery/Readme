@@ -1,0 +1,20 @@
+---- Decentralized Lottery Application ----
+
+In this project, I am creating a smart contract on Ethereum Blockchain using Solidity and deploying it on Rinkeby test network.
+
+
+---- Application Architecture & Workflow ----
+
+- This application consists of manager and participants where, participants would be able to purchase one or more lotteries
+  by transferring 2 ethers for each lottery.
+- Ethers will be sent to the smart contract.
+- Once the ethers are successfully submitted, the smart contract will provide lottery to the participants.
+- Manager will be doing the supervision and will have full control over the transactions and activities
+
+---- Prerequisite ----
+
+- Participant must have a wallet
+- A participant can transfer ether (i.e. purchase lottery) more than once but each time 2 ethers much be transferred
+- Once a participant makes a transaction, its address will be registered
+- Manager will have full control over the system
+- The smart contract will reset once a round is completed (i.e. a winner is declared)
