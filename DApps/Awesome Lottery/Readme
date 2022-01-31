@@ -1,0 +1,5 @@
+Blockchain based lottery system developed using Solidity for backend and React.js for frontend.
+
+User can interact with the UI and enter into the lottery using frontend.
+
+Owner / Manager can choose a winner and reset the system using frontend
