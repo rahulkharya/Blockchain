@@ -8,13 +8,13 @@ class Main extends Component {
 			<div id="content" className="mt-3">
 				<table className="table text-muted text-center">
 					<thead>
-						<tr style={{ color: "black" }}>
+						<tr style={{ color: "white" }}>
 							<th scope="col">Staking Balance</th>
 							<th scope="col">Reward Balance</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr style={{ color: "black" }}>
+						<tr style={{ color: "white" }}>
 							<td>
 								{Web3.utils.fromWei(this.props.stakingBalance, "ether")} USDT
 							</td>
